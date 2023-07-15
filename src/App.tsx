@@ -8,7 +8,7 @@ import type { Todo } from './lib/api';
 
 const queryClient = new QueryClient();
 export const axiosClient = axios.create({
-  baseURL: 'http://localhost:3001/api'
+  baseURL: 'https://node-sqlite-api.onrender.com/api'
 });
 
 function TodoApp() {

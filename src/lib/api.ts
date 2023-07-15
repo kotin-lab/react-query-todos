@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:4000/todos';
+export const BASE_URL = 'https://node-sqlite-api.onrender.com/api';
 
 export interface Todo {
   id: number;
